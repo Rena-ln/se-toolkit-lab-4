@@ -36,6 +36,15 @@
 
 Default values: [`.env.docker.example`](../.env.docker.example)
 
+<!-- TOD improve description -->
+
+> It was added to [`.gitignore`](../../.gitignore) because you may specify there
+> [secrets](../../wiki/environments.md#secrets) such as the API key or the [address of your VM](../../wiki/vm.md#your-vm-ip-address).
+
+> [!TIP]
+> No edits are needed for local development.
+> The default values in [`.env.docker.example`](../../.env.docker.example) work out of the box.
+
 <!-- TODO values are used for deployment using --env-file. replaces values in docker-compose.yml -->
 <!-- TODO explain each variable -->
 <!-- TODO add links to computer-networks#0000 for 0.0.0.0 

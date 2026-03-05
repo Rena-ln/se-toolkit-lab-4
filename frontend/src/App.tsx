@@ -118,10 +118,11 @@ function App() {
 
       {fetchState.status === 'success' && (
         <>
-          <div style={{ marginBottom: '1rem' }}>
+          <div className="type-filter" style={{ marginBottom: '1rem' }}>
             <label>
               Filter by type:{' '}
               <select
+                name="type"
                 value={selectedType}
                 onChange={(e) => setSelectedType(e.target.value)}
               >
